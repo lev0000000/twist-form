@@ -14,3 +14,7 @@
   background-color: #23252E;
   border: 1px solid transparent;
 }
+
+.btn--circle{
+  border-radius: 50%;
+}

@@ -1,0 +1,20 @@
+.custom-input{
+    position: relative;
+}
+.custom-input__field{
+    width:280px;
+    padding: 20px 0 10px;
+    border: none;
+    border-bottom: 1px solid rgba(200, 200, 202, 1);
+}
+
+.custom-input__name{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(153, 153, 158, 1);
+    top: -2px;
+    left:0;
+    user-select: none;
+}
