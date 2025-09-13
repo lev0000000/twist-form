@@ -1,8 +1,8 @@
 .custom-checkbox{
-    margin: 60px 15px 0 40px;
     width: 245px;
     display: flex;
-    align-items: end;
+    align-items: center;
+    
 }
 
 .custom-checkbox__field:checked + .custom-checkbox__label::before{

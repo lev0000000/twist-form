@@ -222,7 +222,7 @@
     <div class="modal__wrapper">
       <div class="modal__content">
         <form class="modal__request" action="#" method="POST">
-          <button class="modal__request-exit btn btn--circle" type="button">
+          <button class="modal__request-exit btn btn--circle" type="button" aria-label="Закрыть форму">
             <svg width="20" height="20" aria-hidden="true">
               <use xlink:href="images/sprite.svg#icon-exit"></use>
             </svg>
@@ -246,24 +246,34 @@
               </div>
             </div>
           </fieldset>
-          <div class="custom__textarea">
-            <textarea class="custom__textarea-field" name="user-comment"
-              id="user-comment">Меня интересует помещение &#8470;&nbsp;114 площадью 529&nbsp;кв.&nbsp;м.&nbsp;на&nbsp;9&nbsp;этаже с&nbsp;видом на&nbsp;реку</textarea>
-            <label for="user-comment" class="custom__textarea-label">Сообщение</label>
+          <div class="modal__request-bottom">
+            <div class="modal__request-bottom-left">
+              <div class="custom-textarea">
+                <textarea class="custom-textarea__field" name="user-comment"
+                  id="user-comment">Меня интересует помещение &#8470;&nbsp;114 площадью 529&nbsp;кв.&nbsp;м.&nbsp;на&nbsp;9&nbsp;этаже с&nbsp;видом на&nbsp;реку</textarea>
+                <label for="user-comment" class="custom-textarea__label">Сообщение</label>
+              </div>
+            </div>
+            <div class="modal__request-bottom-right">
+              <div class="custom-checkbox">
+                <input class="custom-checkbox__field visually-hidden" type="checkbox" id="user-true" name="user-true">
+                <label class="custom-checkbox__label" for="user-true">
+                  <span class="custom-checkbox__label-text">Я&nbsp;даю согласие на&nbsp;обработку моих персональных
+                    данных
+                    согласно <a class="custom-checkbox__label-link" href="#">политике
+                      конфиденциальности</a></span></label>
+              </div>
+              <button class="custom-btn btn" type="submit" disabled>Отправить</button>
+            </div>
           </div>
-          <div class="custom-checkbox">
-            <input class="custom-checkbox__field visually-hidden" type="checkbox" id="user-true" name="user-true">
-            <label class="custom-checkbox__label" for="user-true">
-              <span class="custom-checkbox__label-text">Я&nbsp;даю согласие на&nbsp;обработку моих персональных данных
-                согласно <a class="custom-checkbox__label-link" href="#">политике конфиденциальности</a></span></label>
-          </div>
-          <button class="modal__requeast-button btn" type="submit" disabled>Отправить</button>
-          <div class="modal__successful">
-            <span class="modal_successful-top">отправлено</span>
-            <span class="modal_successful-lower">закроется через 3&nbsp;секунды</span>
-            <svg class="modal_successful-icon" width="16" height="16" aria-hidden="true">
-              <use xlink:href="images/sprite.svg#icon-time"></use>
-            </svg>
+          <div class="modal__successful successful-block">
+            <span class="successful-block__top">отправлено</span>
+            <div class="successful-block__bottom">
+              <svg class="successful-block__icon" width="16" height="16" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-time"></use>
+              </svg>
+              <span class="successful-block__lower">закроется через 3&nbsp;секунды</span>
+            </div>
           </div>
         </form>
       </div>

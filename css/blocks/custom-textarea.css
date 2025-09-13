@@ -1,14 +1,13 @@
-.custom__textarea{
+.custom-textarea{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 60px;
     width: 460px;
     height: auto;
     
 }
 
-.custom__textarea-field{
+.custom-textarea__field{
     width: 100%;
     border: none;
     border-bottom: 1px solid rgba(200, 200, 202, 1);
@@ -18,7 +17,7 @@
     padding: 20px 0 50px;
 }
 
-.custom__textarea-label{
+.custom-textarea__label{
     position: absolute;
     font-weight: 400;
     font-size: 12px;

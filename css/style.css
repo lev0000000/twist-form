@@ -15,5 +15,7 @@
 @import "blocks/modal.css";
 @import "blocks/custom-input.css";
 @import "blocks/custom-textarea.css";
-@import "blocks/custom-checkbox.css"
+@import "blocks/custom-btn.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/successful-block.css";
 

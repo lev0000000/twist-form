@@ -1,0 +1,11 @@
+.custom-btn{
+    width: 200px;
+	padding: 20px 62px;
+	background-color: rgb(60, 82, 230, 1);
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.custom-btn:disabled {
+    background-color: rgba(60, 82, 230, 0.5) ;
+}
