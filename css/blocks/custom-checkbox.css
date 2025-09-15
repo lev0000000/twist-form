@@ -2,6 +2,7 @@
     width: 245px;
     display: flex;
     align-items: center;
+    padding-bottom: 6px;
     
 }
 
@@ -21,7 +22,7 @@
 }  
 
 .custom-checkbox__label-text{
-    padding-left: 40px;
+    padding-left: 35px;
     display: block;
     user-select: none;
     
